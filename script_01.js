@@ -15,16 +15,25 @@
 
 let person = 
 {
-        firstName: "Max",
-        familyName: "Mütze",
+        firstName: "Maurice",
+        // firstName: prompt("?"),
+        familyName: "König",
         salary:[12000,16000],
-        hasPermission: true
+        hasPermission: true,
+        sayHello:
+                function () {
+                        return "Hi, ich bin " + this.firstName + "!";
+                        
+                } 
 }
 
-ausgabe(person);
+// ausgabe(person);
+// ausgabe(person.salary[1]);
+// ausgabe(person.hasPermission);
+// ausgabe(person.sayHello());
 
-ausgabe(person.salary[1]);
-ausgabe(person.hasPermission);
+
+
 
 
 
