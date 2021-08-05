@@ -45,7 +45,7 @@ let baikal = {
 }
 
 ausgabe(baikal.wert);
-ausgabe(baikal.wert);
+ausgabe(baikal.wert.deep.deeper.deepest);
 
 
 
