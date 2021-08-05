@@ -1,4 +1,4 @@
-
+"use strict";
 
 /***** Erinnerung: Arrays *******/
 // let arr;
@@ -11,6 +11,20 @@
 
 
 /***** Objekte 1 Daten/Funktionen *******/
+
+
+let person = 
+{
+        firstName: "Max",
+        familyName: "Mütze",
+        salary:[12000,16000],
+        hasPermission: true
+}
+
+ausgabe(person);
+
+ausgabe(person.salary[1]);
+ausgabe(person.hasPermission);
 
 
 
