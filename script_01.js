@@ -33,7 +33,19 @@ let person =
 // ausgabe(person.sayHello());
 
 
+let baikal = {
+        wert:"10m",
+        deep:{
+                deeper:{
+                        deepest:"Das Licht"
+                }
+                
+                
+        }
+}
 
+ausgabe(baikal.wert);
+ausgabe(baikal.wert);
 
 
 
