@@ -33,14 +33,24 @@ let person =
 // ausgabe(person.sayHello());
 
 
+// let baikal = {
+//         wert:"10m",
+//         deep:{
+//                 deeper:{
+//                         deepest:"Das Licht"
+//                 }
+                
+                
+//         }
+// }
+
+
 let baikal = {
         wert:"10m",
         deep:{
                 deeper:{
-                        deepest:"Das Licht"
+                        deepest:"Das Licht - auf 1642m!"
                 }
-                
-                
         }
 }
 
